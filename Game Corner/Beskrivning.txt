@@ -1,0 +1,32 @@
+G-----------------------------------------------------------------------------------------------
+
+* hemsidan har spel tema där det står lite allmänt om spel.
+
+* har en navigerings meny som tar en till diverse sidor, Start tar en till första sidan, 
+Top5 tar en till top 5 sidan.
+
+* layouten är simpel och hålls ihop med grids, denna är lätt att se för att jag valde sätta
+färg på själva griden.
+
+* satte 2 "spel news" jämte varandra med speciell storlek på bilder och text. dessa två "news"
+flyter samman när man drar ihop webläsarn och när den kommer till "mobilläge" så skiftar
+articlarna till en rad istället.
+
+* färgerna valde jag utefrån en bild på "super smash bros" loggan. de syns tydligt och är inte 
+svåra för ögonen att läsa.
+
+* top 5 sidan har jag lagt allt i en collumn där jag visar mina top spel. längre ner på sidan
+visar jag 3 stycken blizard spel med hjälp av json.
+
+VG----------------------------------------------------------------------------------------------
+
+* tänkte beskriva json delen kort om hur den går till. i själva json-filen har jag satt up
+3 spel med namn och bild på varje spel allt sparas i en variabel som är döpt till topGames. 
+detta körs sedan i en for-loop i javascripts-filen.
+i loopen så anropar den json-filens variablen "topGems" och kör den i tills den har kommit igenom alla
+spel och bilder.
+
+*första när jag fick det att funka lade sig allt till vänster på sidan och texten va helt fel.
+detta fixade jag genom att ta <section id="content"></section> (koden som visar json/javascripten
+på sidan) och sätter den innanför gridden. där i fixade det sig allt med storlekar text etc
+eftersom allt är fixat genom css inom gridden.

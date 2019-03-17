@@ -1,0 +1,16 @@
+{
+  "topGames": [
+    {
+      "name": "Overwatch",
+      "image": "img/overwatch.jpg"
+    },
+    {
+      "name": "Hearthstone",
+      "image": "img/hearthstone.jpg"
+    },
+    {
+      "name": "Starcraft",
+      "image": "img/starcraft.jpg"
+    }
+  ]
+}
